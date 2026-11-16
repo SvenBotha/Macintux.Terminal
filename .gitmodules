@@ -1,0 +1,3 @@
+[submodule "modules/omp"]
+	path = modules/omp
+	url = https://github.com/SvenBotha/Macintux.omp.git

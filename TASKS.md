@@ -19,7 +19,7 @@ Homebrew on macOS and Linux. Casks are macOS only.
 ## Worktrees and agents
 - [ ] worktrunk: `brew install worktrunk`, shell hook `eval "$(wt config shell init zsh)"`
 - [ ] workmux: `brew install raine/workmux/workmux`, `~/.config/workmux/config.yaml` with the agent set to omp
-- [ ] omp: keep the existing install, and version `~/.omp/agent/keybindings.yml` in an `omp` module
+- [x] omp: `modules/omp` submodule (SvenBotha/Macintux.omp). Live copy is `~/.omp/agent` itself; install with `modules/omp/install.sh` (pinned version + config).
 - [ ] Skipped: pi, pi's `/head` (omerxx/pi-head), and the ASD-STE100 extension (omp is the agent)
 
 ## Shell
